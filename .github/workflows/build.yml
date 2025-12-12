@@ -12,12 +12,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build with Buildozer
-        # DÜZELTİLEN SATIR BURASI:
         uses: ArtemSBulgakov/buildozer-action@v1
         id: buildozer
         with:
           workdir: mobile
-          buildozer_version: master
+          # BURAYI DEĞİŞTİRDİK: master yerine stable yaptık
+          buildozer_version: stable
           command: buildozer android debug
 
       - name: Upload APK
