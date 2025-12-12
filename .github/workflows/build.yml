@@ -16,7 +16,6 @@ jobs:
         id: buildozer
         with:
           workdir: mobile
-          # BURAYI DEĞİŞTİRDİK: master yerine stable yaptık
           buildozer_version: stable
           command: buildozer android debug
 
