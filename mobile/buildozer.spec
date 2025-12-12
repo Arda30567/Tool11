@@ -10,7 +10,7 @@ package.name = pythontoolbox
 package.domain = com.pythontoolbox
 
 # Source code where the main.py live
-source.dir = ../src
+source.dir = src
 
 # Source files to include
 source.include_exts = py,png,jpg,kv,atlas,json,txt
