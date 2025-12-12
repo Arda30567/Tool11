@@ -1,0 +1,67 @@
+# Universal Python Toolbox Requirements
+# Railway + Windows EXE + Android APK için
+
+# Core dependencies
+click>=8.1.0
+packaging>=23.0
+pathlib2>=2.3.7
+
+# Desktop GUI (PySide6)
+PySide6>=6.5.0
+shiboken6>=6.5.0
+
+# Mobile GUI (Kivy/KivyMD) - Optional for desktop
+kivy==2.2.1
+kivymd==1.1.1
+
+# PDF Tools
+PyPDF2>=3.0.0
+PyMuPDF>=1.23.0
+pikepdf>=8.0.0
+reportlab>=4.0.0
+
+# QR & Barcode Tools
+qrcode>=7.4.2
+pyzbar>=0.1.9
+python-barcode>=0.15.1
+
+# Image Tools
+Pillow>=10.0.0
+piexif>=1.1.3
+
+# File Conversion Tools
+pandas>=2.0.0
+openpyxl>=3.1.0
+python-docx>=0.8.11
+docx2pdf>=0.1.8
+
+# System Tools
+cryptography>=41.0.0
+
+# Network Tools
+requests>=2.31.0
+speedtest-cli>=2.1.3
+urllib3>=2.0.0
+
+# API Framework (for Railway deployment)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+
+# Build Tools
+pyinstaller>=6.0.0
+buildozer>=1.5.0
+
+# Additional Tools
+setuptools>=68.0.0
+wheel>=0.41.0
+
+# Mobile-specific
+cython>=0.29.0
+
+# Development tools (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
